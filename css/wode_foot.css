@@ -20,21 +20,21 @@
 .foot .shouye>img{
 	width: 0.6rem;
 	height: 0.6rem;
-	color: #FF6700;
+	color: #8a8a8a;
 	
 }
 .foot .zhonglei>img{
 	width: 0.6rem;
 	height: 0.6rem;
-	color: #8a8a8a;
+	color: #ff6700;
 }
 .foot .shouye>span{
 	font-size: 0.3rem;
-	color: #FF6700;
+	color: #afafaf;
 }
 .foot .zhonglei>span{
 	font-size: 0.3rem;
-	color: #afafaf;
+	color: #ff6700;
 }
 .foot .gouwuche>img{
 	width: 0.6rem;
