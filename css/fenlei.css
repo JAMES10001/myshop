@@ -1,0 +1,86 @@
+.root{
+	max-width: 640px;
+	height: 200vh;
+	margin: 0 auto;
+	background: skyblue;
+}
+.header{
+	width: 100%;
+	height: 1.5rem;
+	background: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	
+}
+.header>i{
+	font-size: 0.56rem;
+	color: #545454;
+}
+.header>span{
+	font-size: 0.56rem;
+	color: #676767;
+}
+/* 中间开始 */
+.middle{
+	width: 100%;
+	height: 100rem;
+	background: #008000;
+	display: flex;
+}
+.middle .aside{
+	width: 2.27rem;
+	height: 100%;
+	background: #fff;
+	border-right: 1px solid #f2f2f2;
+	box-sizing: border-box;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	overflow: auto;
+}
+.middle .aside>div{
+	font-size: 0.38rem;
+	line-height: 1.38rem;
+}
+.middle .goods-box{
+	width: 8.53rem;
+	height: 100%;
+	background: yellow;
+	flex-direction: column;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.goods-box .guanggao{
+	width: 7.51rem;
+	height: 3.01rem;
+	background: red;
+	
+}
+.goods-box .guanggao>img{
+	width: 7.51rem;
+	height: 3.01rem;
+}
+.goods-box .phone{
+	width: 7.51rem;
+	height: 2rem;
+	margin-top: 0.2rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.goods-box .phone .line{
+	width: 0.6rem;
+	height: 3px;
+	background: #dfdfdf;
+}
+.goods-box .phone>span{
+	font-size: 0.4rem;
+	color: #6a6a6a;
+	margin: 0 0.36rem;
+}
+/* 中间结束 */
