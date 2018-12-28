@@ -20,7 +20,6 @@
 .foot .shouye>img{
 	width: 0.6rem;
 	height: 0.6rem;
-	color: #8a8a8a;
 	
 }
 .foot .zhonglei>img{
@@ -34,7 +33,7 @@
 }
 .foot .zhonglei>span{
 	font-size: 0.3rem;
-	color: #ff6700;
+	color: #8a8a8a;
 }
 .foot .gouwuche>img{
 	width: 0.6rem;
@@ -52,7 +51,7 @@
 }
 .foot .wode>span{
 	font-size: 0.3rem;
-	color: #afafaf;
+	color: #FF6700;
 }
 .big-box{
 	width: 100%;

@@ -47,12 +47,12 @@
 	width: 0.38rem;
 	height: 0.38rem;
 	padding: 0 0.26rem;
+	display: block;
 }
 .search>span{
 	font-size: 0.42rem;
 	line-height: 0.9rem;
 	color: #d5d5d5;
-	
 }
 .my-center{
 	width: 0.56rem;
@@ -236,7 +236,7 @@ ul,li{
 .list-shouji .text1{
 	font-size: 0.36rem;
 	color: #232323;
-	margin-top: 0.2rem;
+	margin-top: -0.2rem;
 	margin-left: 0.42rem;
 }
 .list-shouji .text2{

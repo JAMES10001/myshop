@@ -1,0 +1,141 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+}
+.logo-box{
+	width: 100%;
+	height: 3.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.logo-box .tubiao-box{
+	width: 1.44rem;
+	height: 1.44rem;
+	border-radius: 6px;
+	margin-top: 0.66rem;
+	background: #FF6700;
+	text-align: center;
+}
+.logo-box .tubiao-box>img{
+	width: 0.86rem;
+	height: 0.56rem;
+}
+.logo-box>span{
+	font-size: 0.5rem;
+	color: #1c1c1c;
+	line-height: 1.7rem;
+}
+.number-box,.check-box{
+	width: 9rem;
+	height: 1.7rem;
+	margin: 0 auto;
+	display: flex;
+}
+.number-box,.check-box{
+	border-bottom:2px solid #d3d3d3;
+	box-sizing: border-box;
+
+}
+.number-box .left-box{
+	width: 1.86rem;
+	height: 100%;
+	text-align: center;
+	font-size: 0.5rem;
+	color: #9b9b9b;
+	line-height: 1.7rem;
+}
+.number-box>input{
+	width: 7.14rem;
+	height: 100%;
+	font-size: 0.5rem;
+	color: #9b9b9b;
+	padding-left: 0.29rem;
+	box-sizing: border-box;
+	border: none;
+}
+.check-box .right-box{
+	width: 3.16rem;
+	height: 100%;
+	text-align: center;
+	font-size: 0.42rem;
+	color: #2ea6e5;
+	line-height: 1.7rem;
+}
+.check-box>input{
+	width: 5.84rem;
+	height: 100%;
+	font-size: 0.5rem;
+	color: #9b9b9b;
+	padding-left: 0.29rem;
+	box-sizing: border-box;
+	border: none;
+}
+.bottom-box1{
+	width: 9rem;
+	height: 1.4rem;
+	background: #ff6700;
+	font-size: 0.5rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.4rem;
+	margin: 0.7rem auto;
+	border-radius: 0.1rem;
+}
+.bottom-box2{
+	width: 9rem;
+	height: 1.4rem;
+	background: #fff;
+	font-size: 0.5rem;
+	color: #000;
+	text-align: center;
+	line-height: 1.4rem;
+	margin: 0.7rem auto;
+	border-radius: 0.1rem;
+	border: 2px solid #d3d3d3;
+	box-sizing: border-box;
+}
+.method-box{
+	width: 9rem;
+	height: 1.4rem;
+	text-align: center;
+	border-radius: 0.1rem;
+	margin: 1rem 0.9rem 0 0.9rem;
+	display: flex;
+	align-items: center;
+}
+.method-box .line{
+	width: 3.37rem;
+	height: 2px;
+	background: #f2f2f2;
+}
+.method-box>span{
+	color: #b5b5b5;
+	font-size: 0.36rem;
+}
+.brand-box{
+	width: 2.55rem;
+	height: 0.98rem;
+	margin: 0 auto;
+}
+.brand-box>img{
+	width: 0.98rem;
+	height: 0.98rem;
+}
+.ziti-box{
+	width: 9.66rem;
+	height: 0.44rem;
+	margin: 2.5rem 0.57rem 0 0.57rem;
+	display: flex;
+	justify-content: space-between;
+}
+.ziti-box>div{
+	font-size: 0.44rem;
+	color: #9b9b9b;
+	line-height: 0.44rem;
+}
+.ziti-box .flag{
+	color: #4a4a4a;
+}
