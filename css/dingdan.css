@@ -1,0 +1,52 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 1.5rem;
+	background: #efefef;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	z-index: 300;
+	
+}
+.header>i{
+	font-size: 0.56rem;
+	color: #545454;
+}
+.header>span{
+	font-size: 0.56rem;
+	color: #676767;
+}
+.middle-box{
+	width: 100%;
+	height: 1.2rem;
+	display: flex;
+    flex-wrap: wrap;
+}
+.middle-box .top{
+	width: 100%;
+	height: 0.95rem;
+    background: red;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.middle-box .bottom{
+	width: 100%;
+	height: 0.25rem;
+	background: #efefef;
+}
+.middle-box .option{
+	width: 0.95rem;
+	height: 100%;
+	background: orange;
+	font-size: 0.3rem;
+	line-height: 0.95rem;
+	
+}

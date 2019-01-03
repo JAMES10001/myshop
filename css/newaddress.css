@@ -1,0 +1,65 @@
+.root{
+	max-width: 640px;
+	height: 15rem;
+	margin: 0 auto;
+}.header{
+	width: 100%;
+	height: 1.5rem;
+	background: #f2f2f2;
+	/* align-items: center; */
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	/* z-index: 300; */
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.header>a{
+	font-size: 0.56rem;
+	color: #545454;
+}
+.header>span{
+	font-size: 0.56rem;
+	color: #676767;
+	margin: 0 auto;
+}
+.middle-box{
+	width: 100%;
+	height: 8rem;
+	padding-top: 1.5rem;
+	box-sizing: border-box;
+}
+.middle-box .box1{
+	width: 100%;
+	height: calc(100% / 5);
+	border-bottom: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	font-size: 0.4rem;
+}
+.middle-box .box1>span{
+	margin-left: 0.4rem;
+	color: #333;
+	line-height: 1.6rem;
+
+}
+.middle-box .flag{
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.4rem;
+}
+.middle-box .flag .flag2{
+	font-size: 0.8rem;
+	margin-right: 0.6rem;
+}
+.foot{
+	width: 100%;
+	height: 1.5rem;
+	background: #ff6700;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 1.5rem;
+	color: #fff;
+}
