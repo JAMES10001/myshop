@@ -15,7 +15,7 @@
 	z-index: 300;
 	
 }
-.header>i{
+.header>a{
 	font-size: 0.56rem;
 	color: #545454;
 }
@@ -32,10 +32,9 @@
 .middle-box .top{
 	width: 100%;
 	height: 0.95rem;
-    background: red;
 	display: flex;
-	flex-wrap: wrap;
-
+	justify-content: space-around;
+	text-align: center;
 }
 .middle-box .bottom{
 	width: 100%;
@@ -43,10 +42,109 @@
 	background: #efefef;
 }
 .middle-box .option{
-	width: 0.95rem;
-	height: 100%;
-	background: orange;
+	width: 1.5rem;
+	height: 0.95rem;
+	background: #fff;
 	font-size: 0.3rem;
 	line-height: 0.95rem;
-	
+}
+.middle-box .top .flag{
+	border-bottom: 1px solid #ff6700;
+	box-sizing: border-box;
+	color: #ff6700;
+}
+.date-box{
+	width: 9.8rem;
+	height: 1.75rem;
+	margin: 0  auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+.date-box .left-box{
+	width: 5.7rem;
+	height: 1.75rem;
+	display: flex;
+flex-direction: column;
+	justify-content: center;
+}
+.date-box .left-box>span{
+	font-size: 0.4rem;
+	color: #333;
+}
+.date-box .left-box .flag{
+	font-size: 0.28rem;
+	color: #e0e0e0;
+}
+.date-box .right-box{
+	width: 1.8rem;
+	height: 1.75rem;
+}
+.date-box .right-box>span{
+	font-size: 0.42rem;
+	color: #ff6700;
+}
+.tv-box{
+	width: 9.8rem;
+	height: 2.14rem;
+	margin: 0  auto;
+	border-bottom: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	display: flex;
+    align-items: center;
+	font-size: 0.3rem;
+	color: #636163;
+}
+.tv-box>img{
+	width: 1.4rem;
+	height: 1.4rem;
+	margin: 0 0.1rem;
+}
+.total-box{
+	width: 9.8rem;
+	height: 1.7rem;
+	margin: 0.4rem 0.5rem 0 0.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.total-box .top-box{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	display: flex;
+	line-height: 0.4rem;
+	justify-content: flex-end;
+	color: #333;
+}
+.total-box .top-box .flag{
+	margin-left: 0.2rem;
+}
+.total-box .bottom-box{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.total-box .bottom-box .left-box{
+	width: 2.27rem;
+	height: 100%;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #e0e0e0;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+}
+.total-box .bottom-box .right-box{
+	width: 2.27rem;
+	height: 100%;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 1rem;
+	margin-left: 0.2rem;
+color: #ff6700;
+	border: 1px solid #ff6700;
+	box-sizing: border-box;
 }
